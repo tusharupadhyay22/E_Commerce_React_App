@@ -1,0 +1,40 @@
+:root {
+ --mainBlue:#9d2035;
+ --lightBlue:#190902;
+ --mainWhite:#f3f3f3;
+ --mainDark:#232528;
+ --mainYellow:#74f25a;
+}
+body{
+  font-family:"Roboto", bold Italic !important;
+  background:var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'Roboto', bold;
+  letter-spacing:0.3rem;
+  text-transform: uppercase; 
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--mainYellow);
+}
+.btn-black{
+  background:transparent;
+  text-transform:capitalize;
+  font-size:0.8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border:0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background:var(--mainDark) !important;
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:1.2rem;
+  color:var(--mainDark);
+}
